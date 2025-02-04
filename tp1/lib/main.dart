@@ -15,11 +15,12 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => MyAppState(),
       child: MaterialApp(
-        title: 'Namer App',
+        title: 'set_et_match',
         theme: ThemeData(
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(
-              seedColor: const Color.fromARGB(255, 34, 248, 255)),
+            seedColor: const Color.fromARGB(255, 34, 248, 255),
+          ),
         ),
         home: MyHomePage(),
       ),
@@ -76,10 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: page,
       bottomNavigationBar: BottomNavigationBar(
         items: const [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
-          ),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(
             icon: Icon(Icons.favorite),
             label: 'mes favoris',
@@ -103,17 +101,17 @@ class FavoritesPage extends StatelessWidget {
     var appState = context.watch<MyAppState>();
 
     if (appState.favorites.isEmpty) {
-      return Center(
-        child: Text('No favorites yet.'),
-      );
+      return Center(child: Text('No favorites yet.'));
     }
 
     return ListView(
       children: [
         Padding(
           padding: const EdgeInsets.all(20),
-          child: Text('You have '
-              '${appState.favorites.length} favorites:'),
+          child: Text(
+            'You have '
+            '${appState.favorites.length} favorites:',
+          ),
         ),
         for (var pair in appState.favorites)
           ListTile(
@@ -139,32 +137,10 @@ class GeneratorPage extends StatelessWidget {
     }
 
     return Center(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          BigCard(pair: pair),
-          SizedBox(height: 10),
-          Row(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              ElevatedButton.icon(
-                onPressed: () {
-                  appState.toggleFavorite();
-                },
-                icon: Icon(icon),
-                label: Text('Like'),
-              ),
-              SizedBox(width: 10),
-              ElevatedButton(
-                onPressed: () {
-                  appState.getNext();
-                },
-                child: Text('Next'),
-              ),
+      child: Row(children: [SizedBox(width: 200, height: 300, children: [
+              
             ],
-          ),
-        ],
-      ),
+          )]),
     );
   }
 }
@@ -175,23 +151,24 @@ class Pageinfo extends StatelessWidget {
     var appState = context.watch<MyAppState>();
 
     return Scaffold(
-        body: Column(children: [
-      Text('date:'),
-      Text('02/04/2025'),
-      Text('Creator:'),
-      Text('Tanguy His'),
-      Text('Purpose:'),
-      Text(
-          'le but de cette application est d proposer différents types de médias à l utilisateur que celui-ci peut choisir de liker ou nnon, il peut ainsi acceder a ses favoris'),
-    ]));
+      body: Column(
+        children: [
+          Text('date:'),
+          Text('02/04/2025'),
+          Text('Creator:'),
+          Text('Tanguy His'),
+          Text('Purpose:'),
+          Text(
+            'le but de cette application est d proposer différents types de médias à l utilisateur que celui-ci peut choisir de liker ou nnon, il peut ainsi acceder a ses favoris',
+          ),
+        ],
+      ),
+    );
   }
 }
 
 class BigCard extends StatelessWidget {
-  const BigCard({
-    super.key,
-    required this.pair,
-  });
+  const BigCard({super.key, required this.pair});
 
   final WordPair pair;
 
