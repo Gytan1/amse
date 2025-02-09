@@ -7,17 +7,16 @@ import 'MyAppState.dart';
 class GeneratorPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var appState = context.watch<MyAppState>();
-    var pair = appState.current;
-
     return Center(
-      child: Row(
-        children: [
-          SizedBox(height: 200, width: 200),
-          SizedBox(
-            height: 200,
-            width: 400,
-            child: ElevatedButton(
+      child: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center, // Centre les boutons
+          children: [
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                fixedSize: Size(200, 100), // Taille plus raisonnable
+              ),
               onPressed: () {
                 Navigator.push(
                   context,
@@ -26,67 +25,51 @@ class GeneratorPage extends StatelessWidget {
               },
               child: Text("Films"),
             ),
-          ),
-          SizedBox(
-            height: 200,
-            width: 400,
-            child: ElevatedButton(
+            SizedBox(width: 20), // Espacement entre les boutons
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(fixedSize: Size(200, 100)),
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => SeriesPAge()),
+                  MaterialPageRoute(
+                    builder: (context) => SeriesPAge(),
+                  ), // Correction du nom
                 );
               },
               child: Text("Series"),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
 }
 
-class Pageinfo extends StatelessWidget {
+class PageInfo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var appState = context.watch<MyAppState>();
-
     return Scaffold(
-      body: Column(
-        children: [
-          Text('date:'),
-          Text('02/04/2025'),
-          Text('Creator:'),
-          Text('Tanguy His'),
-          Text('Purpose:'),
-          Text(
-            'le but de cette application est d proposer différents types de médias à l utilisateur que celui-ci peut choisir de liker ou nnon, il peut ainsi acceder a ses favoris',
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class BigCard extends StatelessWidget {
-  const BigCard({super.key, required this.pair});
-
-  final WordPair pair;
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context); // ← Add this.
-
-    final style = theme.textTheme.displayMedium!.copyWith(
-      color: theme.colorScheme.onPrimary,
-    );
-
-    return Card(
-      color: theme.colorScheme.primary,
-      child: Text(
-        pair.asLowerCase,
-        style: style,
-        semanticsLabel: "${pair.first} ${pair.second}",
+      appBar: AppBar(title: Text("Informations")),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('Date:', style: TextStyle(fontWeight: FontWeight.bold)),
+            Text('02/04/2025'),
+            SizedBox(height: 10),
+            Text('Creator:', style: TextStyle(fontWeight: FontWeight.bold)),
+            Text('Tanguy His'),
+            SizedBox(height: 10),
+            Text('Purpose:', style: TextStyle(fontWeight: FontWeight.bold)),
+            Text(
+              'Le but de cette application est de proposer différents types de médias '
+              'à l’utilisateur, que celui-ci peut choisir de liker ou non. '
+              'Il peut ainsi accéder à ses favoris.',
+              textAlign: TextAlign.justify,
+            ),
+          ],
+        ),
       ),
     );
   }
@@ -95,43 +78,41 @@ class BigCard extends StatelessWidget {
 class FavoritesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var appState = context.watch<MyAppState>();
-    return LayoutBuilder(
-      builder: (context, constraints) {
-        return Center(
+    return Scaffold(
+      appBar: AppBar(title: Text("Vos Favoris")), // Ajout d'un titre
+      body: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
           child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              SizedBox(height: 200, width: 200),
-              SizedBox(
-                height: 200,
-                width: 400,
-                child: ElevatedButton(
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => FFilmsPage()),
-                    );
-                  },
-                  child: Text("Vos films préférés"),
-                ),
+              ElevatedButton(
+                style: ElevatedButton.styleFrom(fixedSize: Size(200, 100)),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => FFilmsPage()),
+                  );
+                },
+                child: Text("Vos films préférés"),
               ),
-              SizedBox(
-                height: 200,
-                width: 400,
-                child: ElevatedButton(
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => FSeriesPAge()),
-                    );
-                  },
-                  child: Text("Vos series préférées"),
-                ),
+              SizedBox(width: 20), // Espacement entre les boutons
+              ElevatedButton(
+                style: ElevatedButton.styleFrom(fixedSize: Size(200, 100)),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => FSeriesPAge(),
+                    ), // Correction du nom
+                  );
+                },
+                child: Text("Vos séries préférées"),
               ),
             ],
           ),
-        );
-      },
+        ),
+      ),
     );
   }
 }
@@ -176,7 +157,10 @@ class FFilmsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     var appState = context.watch<MyAppState>();
     if (appState.filmf.isEmpty) {
-      return Center(child: Text('No favorites yet.'));
+      return Scaffold(
+        appBar: AppBar(title: Text('Films préférés')),
+        body: Center(child: Text('No favorites yet.')),
+      );
     }
 
     return Scaffold(
@@ -190,7 +174,8 @@ class FFilmsPage extends StatelessWidget {
               '${appState.filmf.length} favorites:',
             ),
           ),
-          for (var f in appState.filmf) Text(f),
+          for (var f in appState.filmf)
+            Row(children: [Icon(Icons.favorite), Text(f)]),
         ],
       ),
     );
@@ -200,9 +185,34 @@ class FFilmsPage extends StatelessWidget {
 class SeriesPAge extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    var appState = context.watch<MyAppState>();
     return Scaffold(
       appBar: AppBar(title: Text("Series")),
-      body: Center(child: Text("Bienvenue sur la page de vos series!")),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: ListView.builder(
+          itemCount: appState.series.length,
+          itemBuilder: (context, index) {
+            final serie = appState.series[index];
+            final isFavorite = appState.seriesf.contains(
+              serie,
+            ); // Vérifie si c'est un favori
+
+            return ListTile(
+              title: Text(serie),
+              trailing: IconButton(
+                onPressed: () {
+                  appState.toggleFavoriteF(serie);
+                },
+                icon: Icon(
+                  isFavorite ? Icons.favorite : Icons.favorite_border,
+                  color: isFavorite ? Colors.red : null,
+                ),
+              ),
+            );
+          },
+        ),
+      ),
     );
   }
 }
@@ -210,10 +220,28 @@ class SeriesPAge extends StatelessWidget {
 class FSeriesPAge extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    var appState = context.watch<MyAppState>();
+    if (appState.seriesf.isEmpty) {
+      return Scaffold(
+        appBar: AppBar(title: Text('Series préférés')),
+        body: Center(child: Text('No favorites yet.')),
+      );
+    }
+
     return Scaffold(
-      appBar: AppBar(title: Text("Series")),
-      body: Center(
-        child: Text("Bienvenue sur la page de vos series favorites!"),
+      appBar: AppBar(title: Text('Series préférés')),
+      body: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(20),
+            child: Text(
+              'You have '
+              '${appState.seriesf.length} favorites:',
+            ),
+          ),
+          for (var f in appState.seriesf)
+            Row(children: [Icon(Icons.favorite), Text(f)]),
+        ],
       ),
     );
   }
