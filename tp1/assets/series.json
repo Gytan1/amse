@@ -1,0 +1,68 @@
+{ "Series":[
+    {
+        "titre": "Game of thrones",
+        "année": 2011 ,
+        "saisons": 8,
+        "realisateur": "David Benioff, D.B Weiss",
+        "genre":["Fantasy","Action","Drame"],
+        "note_IMDb": 9.2
+
+    },
+    {
+        "titre": "The Walking Dead",
+        "année": 2011 ,
+        "saisons": 11,
+        "realisateur": "Frank Darabont",
+        "genre":["Horreur","Action","Drame"],
+        "note_IMDb": 8.1
+
+    },
+    {
+        "titre": "One Piece",
+        "année": 1999 ,
+        "saisons": 25,
+        "realisateur": "Eichiro Oda",
+        "genre":["Anime","Action","Aventure"],
+        "note_IMDb": 9.0
+
+    },
+    {
+        "titre": "X-Files : Aux frontières du réel",
+        "année": 1993 ,
+        "saisons": 11,
+        "realisateur": "Chris Carter",
+        "genre":["Science-Fiction","Action","Aventure","Thriller"],
+        "note_IMDb": 8.6
+
+    },
+    {
+        "titre": "Friends",
+        "année": 1994,
+        "saisons": 10,
+        "realisateur": "Davide Crane, Martha Kauffman",
+        "genre":["Sitcom","Comedie","Romance"],
+        "note_IMDb": 8.9
+
+    },
+    {
+        "titre": "How I Met Your Mother",
+        "année": 2005,
+        "saisons": 9,
+        "realisateur": "Carter Bays, Craig Thomas",
+        "genre":["Sitcom","Comedie","Romance"],
+        "note_IMDb": 8.3
+
+    },
+    {
+        "titre": "Vikings",
+        "année": 2013 ,
+        "saisons": 6,
+        "realisateur": "Michael Hirst",
+        "genre":["Historique","Action","Drame"],
+        "note_IMDb": 8.5
+
+    }
+    
+]
+
+}

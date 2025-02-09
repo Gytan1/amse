@@ -1,0 +1,377 @@
+{"films": [
+    {
+        "titre": "Oppenheimer",
+        "annee": 2023,
+        "realisateur": "Christopher Nolan",
+        "genre": ["Drame","Biographique","Historique"],
+        "note_IMDb": 8.3
+    
+    },
+    {
+        "titre": "Reservoir Dogs",
+        "annee": 1992,
+        "realisateur": "Quentin Tarantino",
+        "genre": ["Policier","Thriller"],
+        "note_IMDb": 8.3
+    
+    },
+    {
+        "titre": "Saw",
+        "annee": 2004,
+        "realisateur": "James Wan",
+        "genre": ["Horreur","Gore","Drame"],
+        "note_IMDb": 7.6
+    
+    },
+
+    {
+        "titre": "Pulp Fiction",
+        "annee": 1994,
+        "realisateur": "Quentin Tarantino",
+        "genre": ["Policier","Thriller"],
+        "note_IMDb": 8.9
+    
+    },
+    {
+        "titre": "Mindsommar",
+        "annee": 2019,
+        "realisateur": "Ari Aster",
+        "genre": ["Horreur","Thriller","Drame"],
+        "note_IMDb": 7.1
+    
+    },
+    {
+        "titre": "Bloodsport",
+        "annee": 1988,
+        "realisateur": "Newt Arnold",
+        "genre": ["Action","Sport"],
+        "note_IMDb": 6.8
+    
+    },
+
+    {
+        "titre": "It's a wonderful life",
+        "annee": 1946,
+        "realisateur": "Frank Capra",
+        "genre": ["Drame","Familial","Noel"],
+        "note_IMDb": 8.6
+    
+    },
+
+    {
+        "titre": "Cannibal Holocaust",
+        "annee": 1980,
+        "realisateur": "Ruggero Deodato",
+        "genre": ["Drame","Horreur","Gore"],
+        "note_IMDb": 5.8
+    
+    },
+    {
+        "titre": "Le Bon, La Brute et Le Truand",
+        "annee": 1966,
+        "realisateur": "Sergio Leone",
+        "genre": ["Drame","Western","Aventure"],
+        "note_IMDb": 8.8
+    
+    },
+    {
+        "titre": "Little Big Man ",
+        "annee": 1966,
+        "realisateur": "Arthur Penn",
+        "genre": ["Comedie","Western","Aventure"],
+        "note_IMDb": 7.5
+    
+    },
+    {
+        "titre": "Rio Bravo ",
+        "annee": 1959,
+        "realisateur": "Howard Hanks",
+        "genre": ["Western"],
+        "note_IMDb": 8.0
+    
+    },
+    {
+        "titre": "Rebel Without A Cause",
+        "annee": 1955,
+        "realisateur": "Nicholas Ray",
+        "genre": ["Drame"],
+        "note_IMDb": 7.6
+    
+    },
+
+    {
+        "titre": "Apocalypse Now",
+        "annee": 1974,
+        "realisateur": "Francis Ford Coppola",
+        "genre": ["Drame","Guerre"],
+        "note_IMDb": 8.4
+    
+    },
+    {
+        "titre": "Le Parrain",
+        "annee": 1972,
+        "realisateur": "Francis Ford Coppola",
+        "genre": ["Drame","Gangster"],
+        "note_IMDb": 9.2
+    
+    },
+
+    {
+        "titre": "Inside Man",
+        "annee": 2009,
+        "realisateur": "Spike Lee",
+        "genre": ["Policier","Drame","Mystere"],
+        "note_IMDb": 7.6
+    
+    },
+    {
+        "titre": "Rocky",
+        "annee": 1976,
+        "realisateur": "John G. Avildsen",
+        "genre": ["Boxing","Drame","Sport"],
+        "note_IMDb": 8.1
+    
+    },
+
+    {
+      "titre": "Inception",
+      "annee": 2010,
+      "realisateur": "Christopher Nolan",
+      "genre": ["Science-fiction", "Action", "Thriller"],
+      "note_IMDb": 8.8
+    },
+    {
+        "titre": "Nothing Hill",
+        "annee": 1999,
+        "realisateur": "Roger Michell",
+        "genre": ["Romance","Comedie","Drame"],
+        "note_IMDb": 7.2
+    },
+    {
+        "titre": "Love Actually",
+        "annee": 2003,
+        "realisateur": "Richard Curtis",
+        "genre": ["Romance","Comedie","Vacances"],
+        "note_IMDb": 7.6
+    },
+    {
+        "titre": "Elephant Man",
+        "annee": 1980,
+        "realisateur": "David Lynch",
+        "genre": ["Drame","Biographique","Tragedie"],
+        "note_IMDb": 8.2
+    },
+    {
+        "titre": "The Notebook",
+        "annee": 2004,
+        "realisateur": "Nick Cassavetes",
+        "genre": ["Romance","Drame"],
+        "note_IMDb": 7.8
+    },
+    {
+        "titre": "The Game",
+        "annee": 1997,
+        "realisateur": "David Fincher",
+        "genre": ["Thriller psychologique","Drame"],
+        "note_IMDb": 7.7
+    },
+    {
+        "titre": "Le garçon et la bête",
+        "annee": 2015,
+        "realisateur": "Mamoru Hosoda",
+        "genre": ["Anime","Aventure"],
+        "note_IMDb": 7.6
+    },
+    {
+        "titre": "Baywatch",
+        "annee": 2017,
+        "realisateur": "Seth Gordon",
+        "genre": ["Action","Comedie"],
+        "note_IMDb": 5.5
+    },
+    {
+        "titre": "Back To The Future",
+        "annee": 1985,
+        "realisateur": "Robert Zemeckis",
+        "genre": ["Aventure","Comedie","Science-fiction"],
+        "note_IMDb": 8.5
+    },
+    {
+        "titre": "Indiana Jones:Raiders of The Lost Ark",
+        "annee": 1981,
+        "realisateur": "Steven Spielberg",
+        "genre": ["Aventure","Action"],
+        "note_IMDb": 8.4
+    },
+    {
+        "titre": "Le Diner de Cons",
+        "annee": 1998,
+        "realisateur": "Francis Veber",
+        "genre": ["Comedie Française"],
+        "note_IMDb": 7.2
+    },
+    {
+        "titre": "Le Diner de Cons",
+        "annee": 1998,
+        "realisateur": "Francis Veber",
+        "genre": ["Comedie Française"],
+        "note_IMDb": 7.2
+    },
+    {
+        "titre": "La Folie des Grandeurs",
+        "annee": 1971,
+        "realisateur": "Gérard Oury",
+        "genre": ["Comedie Française"],
+        "note_IMDb": 7.2
+    },
+    {
+        "titre": "Les bronzés font du ski",
+        "annee": 1979,
+        "realisateur": "Patrice Leconte",
+        "genre": ["Comedie Française"],
+        "note_IMDb": 7.4
+    },
+    {
+        "titre": "Jurassic Park",
+        "annee": 1993,
+        "realisateur": "Steven Spielberg",
+        "genre": ["Aventure","Action","Science-fiction"],
+        "note_IMDb": 8.2
+    },
+    {
+        "titre": "Star Wars: Épisode IV - Un nouvel espoir",
+        "annee": 1977,
+        "realisateur": "George Lucas",
+        "genre": ["Aventure","Action","Science-fiction"],
+        "note_IMDb": 8.6
+    },
+    {
+        "titre": "Orange Mecanique",
+        "annee": 1971,
+        "realisateur": "Stanley Kubrick",
+        "genre": ["Comedie noire","Policier","Science-fiction"],
+        "note_IMDb": 8.1
+    },
+
+    {
+        "titre": "2001: l'odyssée de l'espace",
+        "annee": 1968,
+        "realisateur": "Stanley Kubrick",
+        "genre": ["Aventure","Science-fiction"],
+        "note_IMDb": 8.3
+    },
+    {
+        "titre": "Your Name",
+        "annee": 2016,
+        "realisateur": "Makoto Shinkai",
+        "genre": ["Anime","Drama","Romance"],
+        "note_IMDb": 8.4
+    },
+    {
+        "titre": "Grease",
+        "annee": 1978,
+        "realisateur": "Randal Kleiser",
+        "genre": ["Comedie Musicale","Romance"],
+        "note_IMDb": 7.2
+    },
+    {
+        "titre": "Footloose",
+        "annee": 1984,
+        "realisateur": "Herbert Ross",
+        "genre": ["Musique","Romance","Drame"],
+        "note_IMDb": 6.6
+    },
+    {
+        "titre": "La Folle Journée de Ferris Bueller",
+        "annee": 1986,
+        "realisateur": "John Hughes",
+        "genre": ["Comedie","Satire"],
+        "note_IMDb": 7.8
+    },
+    {
+        "titre": "The Avengers",
+        "annee": 2012,
+        "realisateur": "Joss Whedon",
+        "genre": ["Science-fiction", "Super-heros", "Action"],
+        "note_IMDb": 8.0
+    },
+    {
+        "titre": "Iron Man",
+        "annee": 2008,
+        "realisateur": "John Favreau",
+        "genre": ["Science-fiction", "Super-heros", "Action"],
+        "note_IMDb": 7.9
+    },
+    {
+        "titre": "Captain America:Civil War",
+        "annee": 2017,
+        "realisateur": "Anthony Russo, Joe Russo",
+        "genre": ["Science-fiction", "Super-heros", "Action"],
+        "note_IMDb": 7.8
+    },
+    {
+        "titre": "Princess Mononoke",
+        "annee": 1997,
+        "realisateur": "Hayao Miyazaki",
+        "genre": ["Anime","Aventure"],
+        "note_IMDb": 8.3
+    },
+
+    {
+        "titre": "Spider-man ",
+        "annee": 2002,
+        "realisateur": "Sam Raimi",
+        "genre": ["Science-fiction", "Super-heros", "Action"],
+        "note_IMDb": 7.4
+    },
+    {
+        "titre": "Spider-man 2",
+        "annee": 2004,
+        "realisateur": "Sam Raimi",
+        "genre": ["Science-fiction", "Super-heros", "Action"],
+        "note_IMDb": 7.4
+    },
+    {
+        "titre": "Spider-man 3",
+        "annee": 2007,
+        "realisateur": "Sam Raimi",
+        "genre": ["Science-fiction", "Super-heros", "Action"],
+        "note_IMDb": 6.6
+    },
+
+    {
+      "titre": "Le Seigneur des Anneaux : La Communauté de l'Anneau",
+      "annee": 2001,
+      "realisateur": "Peter Jackson",
+      "genre": ["Fantasy", "Aventure", "Action"],
+      "note_IMDb": 8.8
+    },
+    {
+        "titre": "Le château ambulant",
+        "annee": 2004,
+        "realisateur": "Hayao Miyazaki",
+        "genre": ["Anime","Aventure"],
+        "note_IMDb": 8.2
+    },
+    {
+      "titre": "Interstellar",
+      "annee": 2014,
+      "realisateur": "Christopher Nolan",
+      "genre": ["Science-fiction", "Drame", "Aventure"],
+      "note_IMDb": 8.7
+    },
+    {
+      "titre": "Parasite",
+      "annee": 2019,
+      "realisateur": "Bong Joon-ho",
+      "genre": ["Drame", "Thriller"],
+      "note_IMDb": 8.6
+    },
+    {
+      "titre": "The Dark Knight: Le chevalier noir",
+      "annee": 2008,
+      "realisateur": "Christopher Nolan",
+      "genre": ["Action", "Policier", "Drame"],
+      "note_IMDb": 9.0
+    }
+  ]}

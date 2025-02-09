@@ -5,6 +5,7 @@ import 'package:flutter/services.dart' show rootBundle;
 class Serie {
   final String titre;
   final int annee;
+  final int saisons;
   final String realisateur;
   final List<String> genre;
   final double noteIMDb;
@@ -13,6 +14,7 @@ class Serie {
   Serie({
     required this.titre,
     required this.annee,
+    required this.saisons,
     required this.realisateur,
     required this.genre,
     required this.noteIMDb,
@@ -23,6 +25,7 @@ class Serie {
     return Serie(
       titre: json["titre"],
       annee: json["annee"],
+      saisons: json["saisons"],
       realisateur: json["realisateur"],
       genre: List<String>.from(json["genre"]),
       noteIMDb: (json["note_IMDb"] as num).toDouble(),
