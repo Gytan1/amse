@@ -1,4 +1,3 @@
-import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:provider/provider.dart';
@@ -11,12 +10,10 @@ class GeneratorPage extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.center, // Centre les boutons
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                fixedSize: Size(200, 100), // Taille plus raisonnable
-              ),
+              style: ElevatedButton.styleFrom(fixedSize: Size(200, 100)),
               onPressed: () {
                 Navigator.push(
                   context,
@@ -25,15 +22,13 @@ class GeneratorPage extends StatelessWidget {
               },
               child: Text("Films"),
             ),
-            SizedBox(width: 20), // Espacement entre les boutons
+            SizedBox(width: 20),
             ElevatedButton(
               style: ElevatedButton.styleFrom(fixedSize: Size(200, 100)),
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(
-                    builder: (context) => SeriesPAge(),
-                  ), // Correction du nom
+                  MaterialPageRoute(builder: (context) => SeriesPAge()),
                 );
               },
               child: Text("Series"),
@@ -79,7 +74,7 @@ class FavoritesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Vos Favoris")), // Ajout d'un titre
+      appBar: AppBar(title: Text("Vos Favoris")),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
@@ -96,15 +91,13 @@ class FavoritesPage extends StatelessWidget {
                 },
                 child: Text("Vos films préférés"),
               ),
-              SizedBox(width: 20), // Espacement entre les boutons
+              SizedBox(width: 20),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(fixedSize: Size(200, 100)),
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(
-                      builder: (context) => FSeriesPAge(),
-                    ), // Correction du nom
+                    MaterialPageRoute(builder: (context) => FSeriesPAge()),
                   );
                 },
                 child: Text("Vos séries préférées"),
@@ -134,7 +127,13 @@ class FilmsPage extends StatelessWidget {
             ); // Vérifie si c'est un favori
 
             return ListTile(
-              title: Text(film),
+              leading: Image.asset(
+                film.imageUrl,
+                width: 50,
+                height: 75,
+                fit: BoxFit.cover,
+              ),
+              title: Text(film.titre),
               trailing: IconButton(
                 onPressed: () {
                   appState.toggleFavoriteF(film);
@@ -175,7 +174,7 @@ class FFilmsPage extends StatelessWidget {
             ),
           ),
           for (var f in appState.filmf)
-            Row(children: [Icon(Icons.favorite), Text(f)]),
+            Row(children: [Icon(Icons.favorite), Text(f.titre)]),
         ],
       ),
     );
@@ -199,10 +198,16 @@ class SeriesPAge extends StatelessWidget {
             ); // Vérifie si c'est un favori
 
             return ListTile(
-              title: Text(serie),
+              leading: Image.asset(
+                serie.image, // Afficher l'image
+                width: 50,
+                height: 75,
+                fit: BoxFit.cover,
+              ),
+              title: Text(serie.titre),
               trailing: IconButton(
                 onPressed: () {
-                  appState.toggleFavoriteF(serie);
+                  appState.toggleFavoriteS(serie);
                 },
                 icon: Icon(
                   isFavorite ? Icons.favorite : Icons.favorite_border,
@@ -223,7 +228,7 @@ class FSeriesPAge extends StatelessWidget {
     var appState = context.watch<MyAppState>();
     if (appState.seriesf.isEmpty) {
       return Scaffold(
-        appBar: AppBar(title: Text('Series préférés')),
+        appBar: AppBar(title: Text('Series préférées')),
         body: Center(child: Text('No favorites yet.')),
       );
     }
@@ -240,7 +245,7 @@ class FSeriesPAge extends StatelessWidget {
             ),
           ),
           for (var f in appState.seriesf)
-            Row(children: [Icon(Icons.favorite), Text(f)]),
+            Row(children: [Icon(Icons.favorite), Text(f.titre)]),
         ],
       ),
     );

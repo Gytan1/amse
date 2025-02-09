@@ -1,19 +1,36 @@
-import 'package:english_words/english_words.dart';
+import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:provider/provider.dart';
-import 'Films.dart';
+import 'package:flutter/services.dart' show rootBundle;
+import 'Film.dart';
+import 'Serie.dart';
 
 class MyAppState extends ChangeNotifier {
-  var current = Films();
+  List<Film> films = [];
+  List<Film> filmf = []; // Liste des films favoris
+  List<Serie> series = [];
+  List<Serie> seriesf = [];
 
-  var favorites = <WordPair>[];
-  var films = ["film1", "film2", 'film3'];
-  var series = [];
-  var filmf = [];
-  var seriesf = [];
+  MyAppState() {
+    _loadFilms();
+    _loadSerie(); // Charge les films et les series au démarrage
+  }
 
-  void toggleFavoriteF(String film) {
+  Future<void> _loadFilms() async {
+    final String response = await rootBundle.loadString('assets/films.json');
+    final data = json.decode(response);
+    films = (data['films'] as List).map((json) => Film.fromJson(json)).toList();
+    notifyListeners();
+  }
+
+  Future<void> _loadSerie() async {
+    final String response = await rootBundle.loadString('assets/series.json');
+    final data = json.decode(response);
+    films =
+        (data['series'] as List).map((json) => Film.fromJson(json)).toList();
+    notifyListeners();
+  }
+
+  void toggleFavoriteF(Film film) {
     if (filmf.contains(film)) {
       filmf.remove(film);
     } else {
@@ -22,7 +39,15 @@ class MyAppState extends ChangeNotifier {
     notifyListeners();
   }
 
-  void toggleFavoriteS(String serie) {
+  bool isFavoriteF(Film film) {
+    return filmf.contains(film);
+  }
+
+  bool isFavoriteS(Serie serie) {
+    return seriesf.contains(serie);
+  }
+
+  void toggleFavoriteS(Serie serie) {
     if (seriesf.contains(serie)) {
       seriesf.remove(serie);
     } else {
