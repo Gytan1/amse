@@ -10,13 +10,6 @@ class GeneratorPage extends StatelessWidget {
     var appState = context.watch<MyAppState>();
     var pair = appState.current;
 
-    IconData icon;
-    if (appState.favorites.contains(pair)) {
-      icon = Icons.favorite;
-    } else {
-      icon = Icons.favorite_border;
-    }
-
     return Center(
       child: Row(
         children: [
@@ -103,26 +96,42 @@ class FavoritesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var appState = context.watch<MyAppState>();
-
-    if (appState.favorites.isEmpty) {
-      return Center(child: Text('No favorites yet.'));
-    }
-
-    return ListView(
-      children: [
-        Padding(
-          padding: const EdgeInsets.all(20),
-          child: Text(
-            'You have '
-            '${appState.favorites.length} favorites:',
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        return Center(
+          child: Row(
+            children: [
+              SizedBox(height: 200, width: 200),
+              SizedBox(
+                height: 200,
+                width: 400,
+                child: ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => FFilmsPage()),
+                    );
+                  },
+                  child: Text("Vos films préférés"),
+                ),
+              ),
+              SizedBox(
+                height: 200,
+                width: 400,
+                child: ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => FSeriesPAge()),
+                    );
+                  },
+                  child: Text("Vos series préférées"),
+                ),
+              ),
+            ],
           ),
-        ),
-        for (var pair in appState.favorites)
-          ListTile(
-            leading: Icon(Icons.favorite),
-            title: Text(pair.asLowerCase),
-          ),
-      ],
+        );
+      },
     );
   }
 }
@@ -130,9 +139,60 @@ class FavoritesPage extends StatelessWidget {
 class FilmsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    var appState = context.watch<MyAppState>();
     return Scaffold(
       appBar: AppBar(title: Text("Films")),
-      body: Center(child: Text("Bienvenue sur la page des films !")),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: ListView.builder(
+          itemCount: appState.films.length,
+          itemBuilder: (context, index) {
+            final film = appState.films[index];
+            final isFavorite = appState.filmf.contains(
+              film,
+            ); // Vérifie si c'est un favori
+
+            return ListTile(
+              title: Text(film),
+              trailing: IconButton(
+                onPressed: () {
+                  appState.toggleFavoriteF(film);
+                },
+                icon: Icon(
+                  isFavorite ? Icons.favorite : Icons.favorite_border,
+                  color: isFavorite ? Colors.red : null,
+                ),
+              ),
+            );
+          },
+        ),
+      ),
+    );
+  }
+}
+
+class FFilmsPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    var appState = context.watch<MyAppState>();
+    if (appState.filmf.isEmpty) {
+      return Center(child: Text('No favorites yet.'));
+    }
+
+    return Scaffold(
+      appBar: AppBar(title: Text('Films préférés')),
+      body: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(20),
+            child: Text(
+              'You have '
+              '${appState.filmf.length} favorites:',
+            ),
+          ),
+          for (var f in appState.filmf) Text(f),
+        ],
+      ),
     );
   }
 }
@@ -142,7 +202,19 @@ class SeriesPAge extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Series")),
-      body: Center(child: Text("Bienvenue sur la page des series !")),
+      body: Center(child: Text("Bienvenue sur la page de vos series!")),
+    );
+  }
+}
+
+class FSeriesPAge extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text("Series")),
+      body: Center(
+        child: Text("Bienvenue sur la page de vos series favorites!"),
+      ),
     );
   }
 }

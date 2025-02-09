@@ -2,22 +2,31 @@ import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:provider/provider.dart';
+import 'Films.dart';
 
 class MyAppState extends ChangeNotifier {
-  var current = WordPair.random();
+  var current = Films();
 
-  void getNext() {
-    current = WordPair.random();
+  var favorites = <WordPair>[];
+  var films = ["film1", "film2", 'film3'];
+  var series = [];
+  var filmf = [];
+  var seriesf = [];
+
+  void toggleFavoriteF(String film) {
+    if (filmf.contains(film)) {
+      filmf.remove(film);
+    } else {
+      filmf.add(film);
+    }
     notifyListeners();
   }
 
-  var favorites = <WordPair>[];
-
-  void toggleFavorite() {
-    if (favorites.contains(current)) {
-      favorites.remove(current);
+  void toggleFavoriteS(String serie) {
+    if (seriesf.contains(serie)) {
+      seriesf.remove(serie);
     } else {
-      favorites.add(current);
+      seriesf.add(serie);
     }
     notifyListeners();
   }
