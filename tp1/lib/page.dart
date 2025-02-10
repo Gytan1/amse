@@ -196,7 +196,25 @@ class FFilmsPage extends StatelessWidget {
             ),
           ),
           for (var f in appState.filmf)
-            Row(children: [Icon(Icons.favorite), Text(f.titre)]),
+            Row(
+              children: [
+                Icon(Icons.favorite),
+                Image.asset(
+                  f.imageUrl,
+                  width: 50,
+                  height: 75,
+                  fit: BoxFit.cover,
+                  errorBuilder: (context, error, stackTrace) {
+                    return Icon(
+                      Icons.image_not_supported,
+                      size: 50,
+                      color: Colors.grey,
+                    );
+                  },
+                ),
+                Text(f.titre),
+              ],
+            ),
         ],
       ),
     );
