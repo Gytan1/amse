@@ -4,7 +4,8 @@
         "annee": 2023,
         "realisateur": "Christopher Nolan",
         "genre": ["Drame","Biographique","Historique"],
-        "note_IMDb": 8.3
+        "note_IMDb": 8.3,
+        "imageUrl": "images/Oppenheimer.jpg"
     
     },
     {
@@ -12,15 +13,16 @@
         "annee": 1992,
         "realisateur": "Quentin Tarantino",
         "genre": ["Policier","Thriller"],
-        "note_IMDb": 8.3
-    
+        "note_IMDb": 8.3,
+        "imageUrl": "images/Reservoir_dogs.jpg"
     },
     {
         "titre": "Saw",
         "annee": 2004,
         "realisateur": "James Wan",
         "genre": ["Horreur","Gore","Drame"],
-        "note_IMDb": 7.6
+        "note_IMDb": 7.6,
+        "imageUrl": "images/Saw.jpg"
     
     },
 
@@ -29,7 +31,8 @@
         "annee": 1994,
         "realisateur": "Quentin Tarantino",
         "genre": ["Policier","Thriller"],
-        "note_IMDb": 8.9
+        "note_IMDb": 8.9,
+        "imageUrl": "images/Pulp_fiction.jpg"
     
     },
     {
@@ -37,7 +40,8 @@
         "annee": 2019,
         "realisateur": "Ari Aster",
         "genre": ["Horreur","Thriller","Drame"],
-        "note_IMDb": 7.1
+        "note_IMDb": 7.1,
+        "imageUrl": "images/Mindosommar.jpg"
     
     },
     {
@@ -45,7 +49,8 @@
         "annee": 1988,
         "realisateur": "Newt Arnold",
         "genre": ["Action","Sport"],
-        "note_IMDb": 6.8
+        "note_IMDb": 6.8,
+        "imageUrl": "images/Bloodsport.jpg"
     
     },
 
@@ -54,7 +59,8 @@
         "annee": 1946,
         "realisateur": "Frank Capra",
         "genre": ["Drame","Familial","Noel"],
-        "note_IMDb": 8.6
+        "note_IMDb": 8.6,
+        "imageUrl": "images/la_vie_est_belle.jpg"
     
     },
 
@@ -63,7 +69,8 @@
         "annee": 1980,
         "realisateur": "Ruggero Deodato",
         "genre": ["Drame","Horreur","Gore"],
-        "note_IMDb": 5.8
+        "note_IMDb": 5.8,
+        "imageUrl": "images/Cannibal_holocaust.jpg"
     
     },
     {
@@ -71,7 +78,8 @@
         "annee": 1966,
         "realisateur": "Sergio Leone",
         "genre": ["Drame","Western","Aventure"],
-        "note_IMDb": 8.8
+        "note_IMDb": 8.8,
+        "imageUrl": "images/le_bon_la_brute.jpg"
     
     },
     {
@@ -79,7 +87,8 @@
         "annee": 1966,
         "realisateur": "Arthur Penn",
         "genre": ["Comedie","Western","Aventure"],
-        "note_IMDb": 7.5
+        "note_IMDb": 7.5,
+        "imageUrl": "images/little_big_man.jpg"
     
     },
     {
@@ -87,7 +96,8 @@
         "annee": 1959,
         "realisateur": "Howard Hanks",
         "genre": ["Western"],
-        "note_IMDb": 8.0
+        "note_IMDb": 8.0,
+        "imageUrl": "images/rio_bravo.jpg"
     
     },
     {
@@ -95,7 +105,8 @@
         "annee": 1955,
         "realisateur": "Nicholas Ray",
         "genre": ["Drame"],
-        "note_IMDb": 7.6
+        "note_IMDb": 7.6,
+        "imageUrl": "images/rebel_without.jpg"
     
     },
 
@@ -104,7 +115,8 @@
         "annee": 1974,
         "realisateur": "Francis Ford Coppola",
         "genre": ["Drame","Guerre"],
-        "note_IMDb": 8.4
+        "note_IMDb": 8.4,
+        "imageUrl": "images/apocalypse_noiw.jpg"
     
     },
     {
@@ -112,7 +124,8 @@
         "annee": 1972,
         "realisateur": "Francis Ford Coppola",
         "genre": ["Drame","Gangster"],
-        "note_IMDb": 9.2
+        "note_IMDb": 9.2,
+        "imageUrl": "images/le_parrain.jpg"
     
     },
 
@@ -121,7 +134,8 @@
         "annee": 2009,
         "realisateur": "Spike Lee",
         "genre": ["Policier","Drame","Mystere"],
-        "note_IMDb": 7.6
+        "note_IMDb": 7.6,
+        "imageUrl": "images/inside_man.jpg"
     
     },
     {
@@ -129,7 +143,8 @@
         "annee": 1976,
         "realisateur": "John G. Avildsen",
         "genre": ["Boxing","Drame","Sport"],
-        "note_IMDb": 8.1
+        "note_IMDb": 8.1,
+        "imageUrl": "images/rocky.jpg"
     
     },
 
@@ -138,119 +153,136 @@
       "annee": 2010,
       "realisateur": "Christopher Nolan",
       "genre": ["Science-fiction", "Action", "Thriller"],
-      "note_IMDb": 8.8
+      "note_IMDb": 8.8,
+      "imageUrl": "images/inception.jpg"
     },
     {
         "titre": "Nothing Hill",
         "annee": 1999,
         "realisateur": "Roger Michell",
         "genre": ["Romance","Comedie","Drame"],
-        "note_IMDb": 7.2
+        "note_IMDb": 7.2,
+        "imageUrl": "images/Nothing_hill.jpg"
     },
     {
         "titre": "Love Actually",
         "annee": 2003,
         "realisateur": "Richard Curtis",
         "genre": ["Romance","Comedie","Vacances"],
-        "note_IMDb": 7.6
+        "note_IMDb": 7.6,
+        "imageUrl": "images/love_actually.jpg"
     },
     {
         "titre": "Elephant Man",
         "annee": 1980,
         "realisateur": "David Lynch",
         "genre": ["Drame","Biographique","Tragedie"],
-        "note_IMDb": 8.2
+        "note_IMDb": 8.2,
+        "imageUrl": "images/elephant_man.jpg"
     },
     {
         "titre": "The Notebook",
         "annee": 2004,
         "realisateur": "Nick Cassavetes",
         "genre": ["Romance","Drame"],
-        "note_IMDb": 7.8
+        "note_IMDb": 7.8,
+        "imageUrl": "images/notebook.jpg"
     },
     {
         "titre": "The Game",
         "annee": 1997,
         "realisateur": "David Fincher",
         "genre": ["Thriller psychologique","Drame"],
-        "note_IMDb": 7.7
+        "note_IMDb": 7.7,
+        "imageUrl": "images/the_game.jpg"
     },
     {
         "titre": "Le garçon et la bête",
         "annee": 2015,
         "realisateur": "Mamoru Hosoda",
         "genre": ["Anime","Aventure"],
-        "note_IMDb": 7.6
+        "note_IMDb": 7.6,
+        "imageUrl": "images/garcon_bete.jpg"
     },
     {
         "titre": "Baywatch",
         "annee": 2017,
         "realisateur": "Seth Gordon",
         "genre": ["Action","Comedie"],
-        "note_IMDb": 5.5
+        "note_IMDb": 5.5,
+        "imageUrl": "images/baywatch.jpg"
     },
     {
         "titre": "Back To The Future",
         "annee": 1985,
         "realisateur": "Robert Zemeckis",
         "genre": ["Aventure","Comedie","Science-fiction"],
-        "note_IMDb": 8.5
+        "note_IMDb": 8.5,
+        "imageUrl": "images/retours_vers_le_futur.jpg"
     },
     {
         "titre": "Indiana Jones:Raiders of The Lost Ark",
         "annee": 1981,
         "realisateur": "Steven Spielberg",
         "genre": ["Aventure","Action"],
-        "note_IMDb": 8.4
+        "note_IMDb": 8.4,
+        "imageUrl": "images/indiana_jones.jpg"
     },
     {
         "titre": "Le Diner de Cons",
         "annee": 1998,
         "realisateur": "Francis Veber",
         "genre": ["Comedie Française"],
-        "note_IMDb": 7.2
+        "note_IMDb": 7.2,
+        "imageUrl": "images/le_diner.jpg"
     },
     {
-        "titre": "Le Diner de Cons",
-        "annee": 1998,
-        "realisateur": "Francis Veber",
-        "genre": ["Comedie Française"],
-        "note_IMDb": 7.2
+        "titre": "Le Grand Bleu",
+        "annee": 1988,
+        "realisateur": "Luc Besson",
+        "genre": ["Français","Aventure","Drame"],
+        "note_IMDb": 7.5,
+        "imageUrl": "images/grand_bleu.jpg"
     },
     {
         "titre": "La Folie des Grandeurs",
         "annee": 1971,
         "realisateur": "Gérard Oury",
         "genre": ["Comedie Française"],
-        "note_IMDb": 7.2
+        "note_IMDb": 7.2,
+        "imageUrl": "images/folie_des_grandeurs.jpg"
     },
     {
         "titre": "Les bronzés font du ski",
         "annee": 1979,
         "realisateur": "Patrice Leconte",
         "genre": ["Comedie Française"],
-        "note_IMDb": 7.4
+        "note_IMDb": 7.4,
+        "imageUrl": "images/bronze.jpg"
     },
     {
         "titre": "Jurassic Park",
         "annee": 1993,
         "realisateur": "Steven Spielberg",
         "genre": ["Aventure","Action","Science-fiction"],
-        "note_IMDb": 8.2
+        "note_IMDb": 8.2,
+        "imageUrl": "images/jurassic.jpg"
     },
     {
         "titre": "Star Wars: Épisode IV - Un nouvel espoir",
         "annee": 1977,
         "realisateur": "George Lucas",
         "genre": ["Aventure","Action","Science-fiction"],
-        "note_IMDb": 8.6
+        "note_IMDb": 8.6,
+        "imageUrl": "images/star_wars.jpg"
     },
     {
         "titre": "Orange Mecanique",
         "annee": 1971,
         "realisateur": "Stanley Kubrick",
         "genre": ["Comedie noire","Policier","Science-fiction"],
-        "note_IMDb": 8.1
+        "note_IMDb": 8.1,
+        "imageUrl": "images/orange_mecanique.jpg"
     },
 
     {
@@ -258,63 +290,73 @@
         "annee": 1968,
         "realisateur": "Stanley Kubrick",
         "genre": ["Aventure","Science-fiction"],
-        "note_IMDb": 8.3
+        "note_IMDb": 8.3,
+        "imageUrl": "images/2001.jpg"
     },
     {
         "titre": "Your Name",
         "annee": 2016,
         "realisateur": "Makoto Shinkai",
         "genre": ["Anime","Drama","Romance"],
-        "note_IMDb": 8.4
+        "note_IMDb": 8.4,
+        "imageUrl": "images/your_name.jpg"
+
     },
     {
         "titre": "Grease",
         "annee": 1978,
         "realisateur": "Randal Kleiser",
         "genre": ["Comedie Musicale","Romance"],
-        "note_IMDb": 7.2
+        "note_IMDb": 7.2,
+        "imageUrl": "images/grease.jpg"
     },
     {
         "titre": "Footloose",
         "annee": 1984,
         "realisateur": "Herbert Ross",
         "genre": ["Musique","Romance","Drame"],
-        "note_IMDb": 6.6
+        "note_IMDb": 6.6,
+        "imageUrl": "images/footloose.jpg"
     },
     {
         "titre": "La Folle Journée de Ferris Bueller",
         "annee": 1986,
         "realisateur": "John Hughes",
         "genre": ["Comedie","Satire"],
-        "note_IMDb": 7.8
+        "note_IMDb": 7.8,
+        "imageUrl": "images/ferris_bueller.jpg"
     },
     {
         "titre": "The Avengers",
         "annee": 2012,
         "realisateur": "Joss Whedon",
         "genre": ["Science-fiction", "Super-heros", "Action"],
-        "note_IMDb": 8.0
+        "note_IMDb": 8.0,
+        "imageUrl": "images/avengers.jpg"
     },
     {
         "titre": "Iron Man",
         "annee": 2008,
         "realisateur": "John Favreau",
         "genre": ["Science-fiction", "Super-heros", "Action"],
-        "note_IMDb": 7.9
+        "note_IMDb": 7.9,
+        "imageUrl": "images/iron_man.jpg"
     },
     {
         "titre": "Captain America:Civil War",
         "annee": 2017,
         "realisateur": "Anthony Russo, Joe Russo",
         "genre": ["Science-fiction", "Super-heros", "Action"],
-        "note_IMDb": 7.8
+        "note_IMDb": 7.8,
+        "imageUrl": "images/civil_war.jpg"
     },
     {
         "titre": "Princess Mononoke",
         "annee": 1997,
         "realisateur": "Hayao Miyazaki",
         "genre": ["Anime","Aventure"],
-        "note_IMDb": 8.3
+        "note_IMDb": 8.3,
+        "imageUrl": "images/princesse.jpg"
     },
 
     {
@@ -322,21 +364,24 @@
         "annee": 2002,
         "realisateur": "Sam Raimi",
         "genre": ["Science-fiction", "Super-heros", "Action"],
-        "note_IMDb": 7.4
+        "note_IMDb": 7.4,
+        "imageUrl": "images/spiderman1.jpg"
     },
     {
         "titre": "Spider-man 2",
         "annee": 2004,
         "realisateur": "Sam Raimi",
         "genre": ["Science-fiction", "Super-heros", "Action"],
-        "note_IMDb": 7.4
+        "note_IMDb": 7.4,
+        "imageUrl": "images/spiderman2.jpg"
     },
     {
         "titre": "Spider-man 3",
         "annee": 2007,
         "realisateur": "Sam Raimi",
         "genre": ["Science-fiction", "Super-heros", "Action"],
-        "note_IMDb": 6.6
+        "note_IMDb": 6.6,
+        "imageUrl": "images/spiderman3.jpg"
     },
 
     {
@@ -344,34 +389,39 @@
       "annee": 2001,
       "realisateur": "Peter Jackson",
       "genre": ["Fantasy", "Aventure", "Action"],
-      "note_IMDb": 8.8
+      "note_IMDb": 8.8,
+      "imageUrl": "images/lotr.jpg"
     },
     {
         "titre": "Le château ambulant",
         "annee": 2004,
         "realisateur": "Hayao Miyazaki",
         "genre": ["Anime","Aventure"],
-        "note_IMDb": 8.2
+        "note_IMDb": 8.2,
+        "imageUrl": "images/chateau.jpg"
     },
     {
       "titre": "Interstellar",
       "annee": 2014,
       "realisateur": "Christopher Nolan",
       "genre": ["Science-fiction", "Drame", "Aventure"],
-      "note_IMDb": 8.7
+      "note_IMDb": 8.7,
+      "imageUrl": "images/interstellar.jpg"
     },
     {
       "titre": "Parasite",
       "annee": 2019,
       "realisateur": "Bong Joon-ho",
       "genre": ["Drame", "Thriller"],
-      "note_IMDb": 8.6
+      "note_IMDb": 8.6,
+      "imageUrl": "images/parasite.jpg"
     },
     {
       "titre": "The Dark Knight: Le chevalier noir",
       "annee": 2008,
       "realisateur": "Christopher Nolan",
       "genre": ["Action", "Policier", "Drame"],
-      "note_IMDb": 9.0
+      "note_IMDb": 9.0,
+      "imageUrl": "images/dark_knight.jpg"
     }
   ]}
