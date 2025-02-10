@@ -5,7 +5,8 @@
         "saisons": 8,
         "realisateur": "David Benioff, D.B Weiss",
         "genre":["Fantasy","Action","Drame"],
-        "note_IMDb": 9.2
+        "note_IMDb": 9.2,
+        "image": "assets/got.jpg"
 
     },
     {
@@ -14,7 +15,8 @@
         "saisons": 11,
         "realisateur": "Frank Darabont",
         "genre":["Horreur","Action","Drame"],
-        "note_IMDb": 8.1
+        "note_IMDb": 8.1,
+        "image": "assets/walking.jpg"
 
     },
     {
@@ -23,7 +25,28 @@
         "saisons": 25,
         "realisateur": "Eichiro Oda",
         "genre":["Anime","Action","Aventure"],
-        "note_IMDb": 9.0
+        "note_IMDb": 9.0,
+        "image": "assets/one_piece.jpg"
+
+    },
+    {
+        "titre": "Fargo",
+        "année": 2014 ,
+        "saisons": 5,
+        "realisateur": "Noah Hawley",
+        "genre":["Humour Noir","Action","Thriller"],
+        "note_IMDb": 8.8,
+        "image":"assets/fargo.jpg"
+
+    },
+    {
+        "titre": "Watchmen",
+        "année": 2019 ,
+        "saisons": 1,
+        "realisateur": "Damon Lindelof",
+        "genre":["Science-Fiction Dystopique","Super-Heros","Thriller"],
+        "note_IMDb": 8.8,
+        "image": "assets/watchmen.jpg"
 
     },
     {
@@ -32,7 +55,8 @@
         "saisons": 11,
         "realisateur": "Chris Carter",
         "genre":["Science-Fiction","Action","Aventure","Thriller"],
-        "note_IMDb": 8.6
+        "note_IMDb": 8.6,
+        "image":"assets/x_files.jpg"
 
     },
     {
@@ -41,7 +65,38 @@
         "saisons": 10,
         "realisateur": "Davide Crane, Martha Kauffman",
         "genre":["Sitcom","Comedie","Romance"],
-        "note_IMDb": 8.9
+        "note_IMDb": 8.9,
+        "image":"assets/friends.jpg"
+
+    },
+    {
+        "titre": "Black Mirror",
+        "année": 2011,
+        "saisons": 7,
+        "realisateur": "Charlie Brooker",
+        "genre":["Science-Fiction Dystopique","Drame","Thriller"],
+        "note_IMDb": 8.9,
+        "image":"assets/black_mirror.jpg"
+
+    },
+    {
+        "titre": "Dark",
+        "année": 2017,
+        "saisons": 3,
+        "realisateur": "Baran Bo Odar",
+        "genre":["Science-Fiction","Drame","Thriller"],
+        "note_IMDb": 8.7,
+        "image":"assets/dark.jpg"
+
+    },
+    {
+        "titre": "Chernobyl",
+        "année": 2019,
+        "saisons": 1,
+        "realisateur": "Craig Mazin",
+        "genre":["Historique","Drame","Thriller"],
+        "note_IMDb": 9.3,
+        "image":"assets/chernobyl.jpg"
 
     },
     {
@@ -50,7 +105,38 @@
         "saisons": 9,
         "realisateur": "Carter Bays, Craig Thomas",
         "genre":["Sitcom","Comedie","Romance"],
-        "note_IMDb": 8.3
+        "note_IMDb": 8.3,
+        "image": "assets/himym.jpg"
+
+    },
+    {
+        "titre": "Silo",
+        "année": 2023,
+        "saisons": 2,
+        "realisateur": "Graham Yost",
+        "genre":["Science-Fiction Dystopique","Thriller","Drame"],
+        "note_IMDb": 8.1,
+        "image":"assets/silo.jpg"
+
+    },
+    {
+        "titre": "Arrow",
+        "année": 2012,
+        "saisons": 8,
+        "realisateur": "Greg Berlanti",
+        "genre":["Super-Heros","Drame","Science-Fiction"],
+        "note_IMDb": 7.5,
+        "image":"assets/arrow.jpg"
+
+    },
+    {
+        "titre": "Peaky Blinders",
+        "année": 2013,
+        "saisons": 6,
+        "realisateur": "Steven Knight",
+        "genre":["Gangster","Drame","Thriller Historique"],
+        "note_IMDb": 8.7,
+        "image":"assets/peaky_blinders.jpg"
 
     },
     {
@@ -59,9 +145,101 @@
         "saisons": 6,
         "realisateur": "Michael Hirst",
         "genre":["Historique","Action","Drame"],
-        "note_IMDb": 8.5
+        "note_IMDb": 8.5,
+        "image":"assets/vikings.jpg"
+
+    },
+    {
+        "titre": "Better Call Saul",
+        "année": 2015 ,
+        "saisons": 6,
+        "realisateur": "Vince Gilligan",
+        "genre":["Crime","Action","Drame"],
+        "note_IMDb": 9.0,
+        "image":"assets/better.jpg"
+
+    },
+    {
+        "titre": "Docteur House",
+        "année": 2004 ,
+        "saisons": 8,
+        "realisateur": "David Shore",
+        "genre":["Mystere","Drame","Medical"],
+        "note_IMDb": 8.7,
+        "image":"assets/docteur.jpg"
+
+    },
+    {
+        "titre": "Stranger Things",
+        "année": 2016 ,
+        "saisons": 5,
+        "realisateur": "Matt Duffer, Ross Duffer",
+        "genre":["Science-Fiction","Drame","Horreur"],
+        "note_IMDb": 8.7,
+        "image":"assets/stranger.jpg"
+
+    },
+    {
+        "titre": "Sherlock",
+        "année": 2010 ,
+        "saisons": 4,
+        "realisateur": "Mark Gatiss",
+        "genre":["Mystere","Drame","Policier"],
+        "note_IMDb": 9.1,
+        "image":"assets/sherlock.jpg"
+
+    },
+    {
+        "titre": "Le Flambeau",
+        "année": 2022 ,
+        "saisons": 1,
+        "realisateur": "Jonathan Cohen,",
+        "genre":["Français","Humour","Parodie"],
+        "note_IMDb": 6.8
+
+    },
+    {
+        "titre": "La Servante Ecarlate",
+        "année": 2017 ,
+        "saisons": 6,
+        "realisateur": "Bruce Miller",
+        "genre":["Science-Fiction Dystopienne","Drame","Thriller"],
+        "note_IMDb": 8.4,
+        "image":"assets/servante.jpg"
+
+    },
+
+    {
+        "titre": "Le Bureau des Légendes",
+        "année": 2015,
+        "saisons": 5,
+        "realisateur": "Eric Rochant",
+        "genre":["Espionnage","Drame","Thriller"],
+        "note_IMDb": 8.7,
+        "image":"assets/bureau_des.jpg"
+
+    },
+    {
+        "titre": "Snowfall",
+        "année": 2017,
+        "saisons": 6,
+        "realisateur": "Eric Amadio",
+        "genre":["Crime","Drame","Thriller"],
+        "note_IMDb": 8.4,
+        "image":"assets/snow.jpg"
+
+    },
+    {
+        "titre": "Breaking Bad",
+        "année": 2008 ,
+        "saisons": 5,
+        "realisateur": "Vince Gilligan",
+        "genre":["Crime","Action","Drame"],
+        "note_IMDb": 9.5,
+        "image":"assets/breaking_bad.jpg"
 
     }
+
     
 ]
 
