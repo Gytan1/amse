@@ -5,7 +5,7 @@
         "realisateur": "Christopher Nolan",
         "genre": ["Drame","Biographique","Historique"],
         "note_IMDb": 8.3,
-        "imageUrl": "images/Oppenheimer.jpg"
+        "imageUrl": "assets/images/Oppenheimer.jpg"
     
     },
     {
@@ -14,7 +14,7 @@
         "realisateur": "Quentin Tarantino",
         "genre": ["Policier","Thriller"],
         "note_IMDb": 8.3,
-        "imageUrl": "images/Reservoir_dogs.jpg"
+        "imageUrl": "assets/images/Reservoir_dogs.jpg"
     },
     {
         "titre": "Saw",
@@ -22,7 +22,7 @@
         "realisateur": "James Wan",
         "genre": ["Horreur","Gore","Drame"],
         "note_IMDb": 7.6,
-        "imageUrl": "images/Saw.jpg"
+        "imageUrl": "assets/images/Saw.jpg"
     
     },
 
@@ -32,7 +32,7 @@
         "realisateur": "Quentin Tarantino",
         "genre": ["Policier","Thriller"],
         "note_IMDb": 8.9,
-        "imageUrl": "images/Pulp_fiction.jpg"
+        "imageUrl": "assets/images/Pulp_fiction.jpg"
     
     },
     {
@@ -41,7 +41,7 @@
         "realisateur": "Ari Aster",
         "genre": ["Horreur","Thriller","Drame"],
         "note_IMDb": 7.1,
-        "imageUrl": "images/Mindosommar.jpg"
+        "imageUrl": "assets/images/Mindosommar.jpg"
     
     },
     {
@@ -50,7 +50,7 @@
         "realisateur": "Newt Arnold",
         "genre": ["Action","Sport"],
         "note_IMDb": 6.8,
-        "imageUrl": "images/Bloodsport.jpg"
+        "imageUrl": "assets/images/Bloodsport.jpg"
     
     },
 
@@ -60,7 +60,7 @@
         "realisateur": "Frank Capra",
         "genre": ["Drame","Familial","Noel"],
         "note_IMDb": 8.6,
-        "imageUrl": "images/la_vie_est_belle.jpg"
+        "imageUrl": "assets/images/la_vie_est_belle.jpg"
     
     },
 
@@ -70,7 +70,7 @@
         "realisateur": "Ruggero Deodato",
         "genre": ["Drame","Horreur","Gore"],
         "note_IMDb": 5.8,
-        "imageUrl": "images/Cannibal_holocaust.jpg"
+        "imageUrl": "assets/images/Cannibal_holocaust.jpg"
     
     },
     {
@@ -79,7 +79,7 @@
         "realisateur": "Sergio Leone",
         "genre": ["Drame","Western","Aventure"],
         "note_IMDb": 8.8,
-        "imageUrl": "images/le_bon_la_brute.jpg"
+        "imageUrl": "assets/images/le_bon_la_brute.jpg"
     
     },
     {
@@ -88,7 +88,7 @@
         "realisateur": "Arthur Penn",
         "genre": ["Comedie","Western","Aventure"],
         "note_IMDb": 7.5,
-        "imageUrl": "images/little_big_man.jpg"
+        "imageUrl": "assets/images/little_big_man.jpg"
     
     },
     {
@@ -97,7 +97,7 @@
         "realisateur": "Howard Hanks",
         "genre": ["Western"],
         "note_IMDb": 8.0,
-        "imageUrl": "images/rio_bravo.jpg"
+        "imageUrl": "assets/images/rio_bravo.jpg"
     
     },
     {
@@ -106,7 +106,7 @@
         "realisateur": "Nicholas Ray",
         "genre": ["Drame"],
         "note_IMDb": 7.6,
-        "imageUrl": "images/rebel_without.jpg"
+        "imageUrl": "assets/images/rebel_without.jpg"
     
     },
 
@@ -116,7 +116,7 @@
         "realisateur": "Francis Ford Coppola",
         "genre": ["Drame","Guerre"],
         "note_IMDb": 8.4,
-        "imageUrl": "images/apocalypse_noiw.jpg"
+        "imageUrl": "assets/images/apocalypse_noiw.jpg"
     
     },
     {
@@ -125,7 +125,7 @@
         "realisateur": "Francis Ford Coppola",
         "genre": ["Drame","Gangster"],
         "note_IMDb": 9.2,
-        "imageUrl": "images/le_parrain.jpg"
+        "imageUrl": "assets/images/le_parrain.jpg"
     
     },
 
@@ -135,7 +135,7 @@
         "realisateur": "Spike Lee",
         "genre": ["Policier","Drame","Mystere"],
         "note_IMDb": 7.6,
-        "imageUrl": "images/inside_man.jpg"
+        "imageUrl": "assets/images/inside_man.jpg"
     
     },
     {
@@ -144,7 +144,7 @@
         "realisateur": "John G. Avildsen",
         "genre": ["Boxing","Drame","Sport"],
         "note_IMDb": 8.1,
-        "imageUrl": "images/rocky.jpg"
+        "imageUrl": "assets/images/rocky.jpg"
     
     },
 
@@ -154,7 +154,7 @@
       "realisateur": "Christopher Nolan",
       "genre": ["Science-fiction", "Action", "Thriller"],
       "note_IMDb": 8.8,
-      "imageUrl": "images/inception.jpg"
+      "imageUrl": "assets/images/inception.jpg"
     },
     {
         "titre": "Nothing Hill",
@@ -162,7 +162,7 @@
         "realisateur": "Roger Michell",
         "genre": ["Romance","Comedie","Drame"],
         "note_IMDb": 7.2,
-        "imageUrl": "images/Nothing_hill.jpg"
+        "imageUrl": "assets/images/Nothing_hill.jpg"
     },
     {
         "titre": "Love Actually",
@@ -170,7 +170,7 @@
         "realisateur": "Richard Curtis",
         "genre": ["Romance","Comedie","Vacances"],
         "note_IMDb": 7.6,
-        "imageUrl": "images/love_actually.jpg"
+        "imageUrl": "assets/images/love_actually.jpg"
     },
     {
         "titre": "Elephant Man",
@@ -178,7 +178,7 @@
         "realisateur": "David Lynch",
         "genre": ["Drame","Biographique","Tragedie"],
         "note_IMDb": 8.2,
-        "imageUrl": "images/elephant_man.jpg"
+        "imageUrl": "assets/images/elephant_man.jpg"
     },
     {
         "titre": "The Notebook",
@@ -186,7 +186,7 @@
         "realisateur": "Nick Cassavetes",
         "genre": ["Romance","Drame"],
         "note_IMDb": 7.8,
-        "imageUrl": "images/notebook.jpg"
+        "imageUrl": "assets/images/notebook.jpg"
     },
     {
         "titre": "The Game",
@@ -194,7 +194,7 @@
         "realisateur": "David Fincher",
         "genre": ["Thriller psychologique","Drame"],
         "note_IMDb": 7.7,
-        "imageUrl": "images/the_game.jpg"
+        "imageUrl": "assets/images/the_game.jpg"
     },
     {
         "titre": "Le garçon et la bête",
@@ -202,7 +202,7 @@
         "realisateur": "Mamoru Hosoda",
         "genre": ["Anime","Aventure"],
         "note_IMDb": 7.6,
-        "imageUrl": "images/garcon_bete.jpg"
+        "imageUrl": "assets/images/garcon_bete.jpg"
     },
     {
         "titre": "Baywatch",
@@ -210,7 +210,7 @@
         "realisateur": "Seth Gordon",
         "genre": ["Action","Comedie"],
         "note_IMDb": 5.5,
-        "imageUrl": "images/baywatch.jpg"
+        "imageUrl": "assets/images/baywatch.jpg"
     },
     {
         "titre": "Back To The Future",
@@ -218,7 +218,7 @@
         "realisateur": "Robert Zemeckis",
         "genre": ["Aventure","Comedie","Science-fiction"],
         "note_IMDb": 8.5,
-        "imageUrl": "images/retours_vers_le_futur.jpg"
+        "imageUrl": "assets/images/retours_vers_le_futur.jpg"
     },
     {
         "titre": "Indiana Jones:Raiders of The Lost Ark",
@@ -226,7 +226,7 @@
         "realisateur": "Steven Spielberg",
         "genre": ["Aventure","Action"],
         "note_IMDb": 8.4,
-        "imageUrl": "images/indiana_jones.jpg"
+        "imageUrl": "assets/images/indiana_jones.jpg"
     },
     {
         "titre": "Le Diner de Cons",
@@ -234,7 +234,7 @@
         "realisateur": "Francis Veber",
         "genre": ["Comedie Française"],
         "note_IMDb": 7.2,
-        "imageUrl": "images/le_diner.jpg"
+        "imageUrl": "assets/images/le_diner.jpg"
     },
     {
         "titre": "Le Grand Bleu",
@@ -242,7 +242,7 @@
         "realisateur": "Luc Besson",
         "genre": ["Français","Aventure","Drame"],
         "note_IMDb": 7.5,
-        "imageUrl": "images/grand_bleu.jpg"
+        "imageUrl": "assets/images/grand_bleu.jpg"
     },
     {
         "titre": "La Folie des Grandeurs",
@@ -250,7 +250,7 @@
         "realisateur": "Gérard Oury",
         "genre": ["Comedie Française"],
         "note_IMDb": 7.2,
-        "imageUrl": "images/folie_des_grandeurs.jpg"
+        "imageUrl": "assets/images/folie_des_grandeurs.jpg"
     },
     {
         "titre": "Les bronzés font du ski",
@@ -258,7 +258,7 @@
         "realisateur": "Patrice Leconte",
         "genre": ["Comedie Française"],
         "note_IMDb": 7.4,
-        "imageUrl": "images/bronze.jpg"
+        "imageUrl": "assets/images/bronze.jpg"
     },
     {
         "titre": "Jurassic Park",
@@ -266,7 +266,7 @@
         "realisateur": "Steven Spielberg",
         "genre": ["Aventure","Action","Science-fiction"],
         "note_IMDb": 8.2,
-        "imageUrl": "images/jurassic.jpg"
+        "imageUrl": "assets/images/jurassic.jpg"
     },
     {
         "titre": "Star Wars: Épisode IV - Un nouvel espoir",
@@ -274,7 +274,7 @@
         "realisateur": "George Lucas",
         "genre": ["Aventure","Action","Science-fiction"],
         "note_IMDb": 8.6,
-        "imageUrl": "images/star_wars.jpg"
+        "imageUrl": "assets/images/star_wars.jpg"
     },
     {
         "titre": "Orange Mecanique",
@@ -282,7 +282,7 @@
         "realisateur": "Stanley Kubrick",
         "genre": ["Comedie noire","Policier","Science-fiction"],
         "note_IMDb": 8.1,
-        "imageUrl": "images/orange_mecanique.jpg"
+        "imageUrl": "assets/images/orange_mecanique.jpg"
     },
 
     {
@@ -291,7 +291,7 @@
         "realisateur": "Stanley Kubrick",
         "genre": ["Aventure","Science-fiction"],
         "note_IMDb": 8.3,
-        "imageUrl": "images/2001.jpg"
+        "imageUrl": "assets/images/2001.jpg"
     },
     {
         "titre": "Your Name",
@@ -299,7 +299,7 @@
         "realisateur": "Makoto Shinkai",
         "genre": ["Anime","Drama","Romance"],
         "note_IMDb": 8.4,
-        "imageUrl": "images/your_name.jpg"
+        "imageUrl": "assets/images/your_name.jpg"
 
     },
     {
@@ -308,7 +308,7 @@
         "realisateur": "Randal Kleiser",
         "genre": ["Comedie Musicale","Romance"],
         "note_IMDb": 7.2,
-        "imageUrl": "images/grease.jpg"
+        "imageUrl": "assets/images/grease.jpg"
     },
     {
         "titre": "Footloose",
@@ -316,7 +316,7 @@
         "realisateur": "Herbert Ross",
         "genre": ["Musique","Romance","Drame"],
         "note_IMDb": 6.6,
-        "imageUrl": "images/footloose.jpg"
+        "imageUrl": "assets/images/footloose.jpg"
     },
     {
         "titre": "La Folle Journée de Ferris Bueller",
@@ -324,7 +324,7 @@
         "realisateur": "John Hughes",
         "genre": ["Comedie","Satire"],
         "note_IMDb": 7.8,
-        "imageUrl": "images/ferris_bueller.jpg"
+        "imageUrl": "assets/images/ferris_bueller.jpg"
     },
     {
         "titre": "The Avengers",
@@ -332,7 +332,7 @@
         "realisateur": "Joss Whedon",
         "genre": ["Science-fiction", "Super-heros", "Action"],
         "note_IMDb": 8.0,
-        "imageUrl": "images/avengers.jpg"
+        "imageUrl": "assets/images/avengers.jpg"
     },
     {
         "titre": "Iron Man",
@@ -340,7 +340,7 @@
         "realisateur": "John Favreau",
         "genre": ["Science-fiction", "Super-heros", "Action"],
         "note_IMDb": 7.9,
-        "imageUrl": "images/iron_man.jpg"
+        "imageUrl": "assets/images/iron_man.jpg"
     },
     {
         "titre": "Captain America:Civil War",
@@ -348,7 +348,7 @@
         "realisateur": "Anthony Russo, Joe Russo",
         "genre": ["Science-fiction", "Super-heros", "Action"],
         "note_IMDb": 7.8,
-        "imageUrl": "images/civil_war.jpg"
+        "imageUrl": "assets/images/civil_war.jpg"
     },
     {
         "titre": "Princess Mononoke",
@@ -356,7 +356,7 @@
         "realisateur": "Hayao Miyazaki",
         "genre": ["Anime","Aventure"],
         "note_IMDb": 8.3,
-        "imageUrl": "images/princesse.jpg"
+        "imageUrl": "assets/images/princesse.jpg"
     },
 
     {
@@ -365,7 +365,7 @@
         "realisateur": "Sam Raimi",
         "genre": ["Science-fiction", "Super-heros", "Action"],
         "note_IMDb": 7.4,
-        "imageUrl": "images/spiderman1.jpg"
+        "imageUrl": "assets/images/spiderman1.jpg"
     },
     {
         "titre": "Spider-man 2",
@@ -373,7 +373,7 @@
         "realisateur": "Sam Raimi",
         "genre": ["Science-fiction", "Super-heros", "Action"],
         "note_IMDb": 7.4,
-        "imageUrl": "images/spiderman2.jpg"
+        "imageUrl": "assets/images/spiderman2.jpg"
     },
     {
         "titre": "Spider-man 3",
@@ -381,7 +381,7 @@
         "realisateur": "Sam Raimi",
         "genre": ["Science-fiction", "Super-heros", "Action"],
         "note_IMDb": 6.6,
-        "imageUrl": "images/spiderman3.jpg"
+        "imageUrl": "assets/images/spiderman3.jpg"
     },
 
     {
@@ -390,7 +390,7 @@
       "realisateur": "Peter Jackson",
       "genre": ["Fantasy", "Aventure", "Action"],
       "note_IMDb": 8.8,
-      "imageUrl": "images/lotr.jpg"
+      "imageUrl": "assets/images/lotr.jpg"
     },
     {
         "titre": "Le château ambulant",
@@ -398,7 +398,7 @@
         "realisateur": "Hayao Miyazaki",
         "genre": ["Anime","Aventure"],
         "note_IMDb": 8.2,
-        "imageUrl": "images/chateau.jpg"
+        "imageUrl": "assets/images/chateau.jpg"
     },
     {
       "titre": "Interstellar",
@@ -406,7 +406,7 @@
       "realisateur": "Christopher Nolan",
       "genre": ["Science-fiction", "Drame", "Aventure"],
       "note_IMDb": 8.7,
-      "imageUrl": "images/interstellar.jpg"
+      "imageUrl": "assets/images/interstellar.jpg"
     },
     {
       "titre": "Parasite",
@@ -414,7 +414,7 @@
       "realisateur": "Bong Joon-ho",
       "genre": ["Drame", "Thriller"],
       "note_IMDb": 8.6,
-      "imageUrl": "images/parasite.jpg"
+      "imageUrl": "assets/images/parasite.jpg"
     },
     {
       "titre": "The Dark Knight: Le chevalier noir",
@@ -422,6 +422,6 @@
       "realisateur": "Christopher Nolan",
       "genre": ["Action", "Policier", "Drame"],
       "note_IMDb": 9.0,
-      "imageUrl": "images/dark_knight.jpg"
+      "imageUrl": "assets/images/dark_knight.jpg"
     }
   ]}

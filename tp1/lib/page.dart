@@ -132,8 +132,30 @@ class FilmsPage extends StatelessWidget {
                 width: 50,
                 height: 75,
                 fit: BoxFit.cover,
+                errorBuilder: (context, error, stackTrace) {
+                  return Icon(
+                    Icons.image_not_supported,
+                    size: 50,
+                    color: Colors.grey,
+                  );
+                },
               ),
-              title: Text(film.titre),
+              title: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Expanded(
+                    child: Text(
+                      film.titre,
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
+                  Text(
+                    "${film.annee} - ⭐ ${film.noteIMDb.toString()}",
+                    style: TextStyle(color: Colors.grey[600]),
+                  ),
+                ],
+              ),
               trailing: IconButton(
                 onPressed: () {
                   appState.toggleFavoriteF(film);

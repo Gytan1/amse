@@ -6,7 +6,7 @@
         "realisateur": "David Benioff, D.B Weiss",
         "genre":["Fantasy","Action","Drame"],
         "note_IMDb": 9.2,
-        "image": "assets/got.jpg"
+        "image": "assets/images/got.jpg"
 
     },
     {
@@ -16,7 +16,7 @@
         "realisateur": "Frank Darabont",
         "genre":["Horreur","Action","Drame"],
         "note_IMDb": 8.1,
-        "image": "assets/walking.jpg"
+        "image": "assets/images/walking.jpg"
 
     },
     {
@@ -26,7 +26,7 @@
         "realisateur": "Eichiro Oda",
         "genre":["Anime","Action","Aventure"],
         "note_IMDb": 9.0,
-        "image": "assets/one_piece.jpg"
+        "image": "assets/images/one_piece.jpg"
 
     },
     {
@@ -36,7 +36,7 @@
         "realisateur": "Noah Hawley",
         "genre":["Humour Noir","Action","Thriller"],
         "note_IMDb": 8.8,
-        "image":"assets/fargo.jpg"
+        "image":"assets/images/fargo.jpg"
 
     },
     {
@@ -46,7 +46,7 @@
         "realisateur": "Damon Lindelof",
         "genre":["Science-Fiction Dystopique","Super-Heros","Thriller"],
         "note_IMDb": 8.8,
-        "image": "assets/watchmen.jpg"
+        "image": "assets/images/watchmen.jpg"
 
     },
     {
@@ -56,7 +56,7 @@
         "realisateur": "Chris Carter",
         "genre":["Science-Fiction","Action","Aventure","Thriller"],
         "note_IMDb": 8.6,
-        "image":"assets/x_files.jpg"
+        "image":"assets/images/x_files.jpg"
 
     },
     {
@@ -66,7 +66,7 @@
         "realisateur": "Davide Crane, Martha Kauffman",
         "genre":["Sitcom","Comedie","Romance"],
         "note_IMDb": 8.9,
-        "image":"assets/friends.jpg"
+        "image":"assets/images/friends.jpg"
 
     },
     {
@@ -76,7 +76,7 @@
         "realisateur": "Charlie Brooker",
         "genre":["Science-Fiction Dystopique","Drame","Thriller"],
         "note_IMDb": 8.9,
-        "image":"assets/black_mirror.jpg"
+        "image":"assets/images/black_mirror.jpg"
 
     },
     {
@@ -86,7 +86,7 @@
         "realisateur": "Baran Bo Odar",
         "genre":["Science-Fiction","Drame","Thriller"],
         "note_IMDb": 8.7,
-        "image":"assets/dark.jpg"
+        "image":"assets/images/dark.jpg"
 
     },
     {
@@ -96,7 +96,7 @@
         "realisateur": "Craig Mazin",
         "genre":["Historique","Drame","Thriller"],
         "note_IMDb": 9.3,
-        "image":"assets/chernobyl.jpg"
+        "image":"assets/images/chernobyl.jpg"
 
     },
     {
@@ -106,7 +106,7 @@
         "realisateur": "Carter Bays, Craig Thomas",
         "genre":["Sitcom","Comedie","Romance"],
         "note_IMDb": 8.3,
-        "image": "assets/himym.jpg"
+        "image": "assets/images/himym.jpg"
 
     },
     {
@@ -116,7 +116,7 @@
         "realisateur": "Graham Yost",
         "genre":["Science-Fiction Dystopique","Thriller","Drame"],
         "note_IMDb": 8.1,
-        "image":"assets/silo.jpg"
+        "image":"assets/images/silo.jpg"
 
     },
     {
@@ -126,7 +126,7 @@
         "realisateur": "Greg Berlanti",
         "genre":["Super-Heros","Drame","Science-Fiction"],
         "note_IMDb": 7.5,
-        "image":"assets/arrow.jpg"
+        "image":"assets/images/arrow.jpg"
 
     },
     {
@@ -136,7 +136,7 @@
         "realisateur": "Steven Knight",
         "genre":["Gangster","Drame","Thriller Historique"],
         "note_IMDb": 8.7,
-        "image":"assets/peaky_blinders.jpg"
+        "image":"assets/images/peaky_blinders.jpg"
 
     },
     {
@@ -146,7 +146,7 @@
         "realisateur": "Michael Hirst",
         "genre":["Historique","Action","Drame"],
         "note_IMDb": 8.5,
-        "image":"assets/vikings.jpg"
+        "image":"assets/images/vikings.jpg"
 
     },
     {
@@ -156,7 +156,7 @@
         "realisateur": "Vince Gilligan",
         "genre":["Crime","Action","Drame"],
         "note_IMDb": 9.0,
-        "image":"assets/better.jpg"
+        "image":"assets/images/better.jpg"
 
     },
     {
@@ -166,7 +166,7 @@
         "realisateur": "David Shore",
         "genre":["Mystere","Drame","Medical"],
         "note_IMDb": 8.7,
-        "image":"assets/docteur.jpg"
+        "image":"assets/images/docteur.jpg"
 
     },
     {
@@ -176,7 +176,7 @@
         "realisateur": "Matt Duffer, Ross Duffer",
         "genre":["Science-Fiction","Drame","Horreur"],
         "note_IMDb": 8.7,
-        "image":"assets/stranger.jpg"
+        "image":"assets/images/stranger.jpg"
 
     },
     {
@@ -186,7 +186,7 @@
         "realisateur": "Mark Gatiss",
         "genre":["Mystere","Drame","Policier"],
         "note_IMDb": 9.1,
-        "image":"assets/sherlock.jpg"
+        "image":"assets/images/sherlock.jpg"
 
     },
     {
@@ -205,7 +205,7 @@
         "realisateur": "Bruce Miller",
         "genre":["Science-Fiction Dystopienne","Drame","Thriller"],
         "note_IMDb": 8.4,
-        "image":"assets/servante.jpg"
+        "image":"assets/images/servante.jpg"
 
     },
 
@@ -216,7 +216,7 @@
         "realisateur": "Eric Rochant",
         "genre":["Espionnage","Drame","Thriller"],
         "note_IMDb": 8.7,
-        "image":"assets/bureau_des.jpg"
+        "image":"assets/images/bureau_des.jpg"
 
     },
     {
@@ -226,7 +226,7 @@
         "realisateur": "Eric Amadio",
         "genre":["Crime","Drame","Thriller"],
         "note_IMDb": 8.4,
-        "image":"assets/snow.jpg"
+        "image":"assets/images/snow.jpg"
 
     },
     {
@@ -236,7 +236,7 @@
         "realisateur": "Vince Gilligan",
         "genre":["Crime","Action","Drame"],
         "note_IMDb": 9.5,
-        "image":"assets/breaking_bad.jpg"
+        "image":"assets/images/breaking_bad.jpg"
 
     }
 
