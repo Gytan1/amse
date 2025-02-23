@@ -41,7 +41,7 @@
         "realisateur": "Ari Aster",
         "genre": ["Horreur","Thriller","Drame"],
         "note_IMDb": 7.1,
-        "imageUrl": "assets/images/Mindosommar.jpg"
+        "imageUrl": "assets/images/Mindsommar.jpg"
     
     },
     {
@@ -60,7 +60,7 @@
         "realisateur": "Frank Capra",
         "genre": ["Drame","Familial","Noel"],
         "note_IMDb": 8.6,
-        "imageUrl": "assets/images/la_vie_est_belle.jpg"
+        "imageUrl": "assets/images/la_vie_est-belle.jpg"
     
     },
 

@@ -23,16 +23,6 @@ class GeneratorPage extends StatelessWidget {
               child: Text("Films"),
             ),
             SizedBox(width: 20),
-            ElevatedButton(
-              style: ElevatedButton.styleFrom(fixedSize: Size(200, 100)),
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => SeriesPAge()),
-                );
-              },
-              child: Text("Series"),
-            ),
           ],
         ),
       ),
@@ -90,17 +80,6 @@ class FavoritesPage extends StatelessWidget {
                   );
                 },
                 child: Text("Vos films préférés"),
-              ),
-              SizedBox(width: 20),
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(fixedSize: Size(200, 100)),
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => FSeriesPAge()),
-                  );
-                },
-                child: Text("Vos séries préférées"),
               ),
             ],
           ),
@@ -215,77 +194,6 @@ class FFilmsPage extends StatelessWidget {
                 Text(f.titre),
               ],
             ),
-        ],
-      ),
-    );
-  }
-}
-
-class SeriesPAge extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    var appState = context.watch<MyAppState>();
-    return Scaffold(
-      appBar: AppBar(title: Text("Series")),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: ListView.builder(
-          itemCount: appState.series.length,
-          itemBuilder: (context, index) {
-            final serie = appState.series[index];
-            final isFavorite = appState.seriesf.contains(
-              serie,
-            ); // Vérifie si c'est un favori
-
-            return ListTile(
-              leading: Image.asset(
-                serie.image, // Afficher l'image
-                width: 50,
-                height: 75,
-                fit: BoxFit.cover,
-              ),
-              title: Text(serie.titre),
-              trailing: IconButton(
-                onPressed: () {
-                  appState.toggleFavoriteS(serie);
-                },
-                icon: Icon(
-                  isFavorite ? Icons.favorite : Icons.favorite_border,
-                  color: isFavorite ? Colors.red : null,
-                ),
-              ),
-            );
-          },
-        ),
-      ),
-    );
-  }
-}
-
-class FSeriesPAge extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    var appState = context.watch<MyAppState>();
-    if (appState.seriesf.isEmpty) {
-      return Scaffold(
-        appBar: AppBar(title: Text('Series préférées')),
-        body: Center(child: Text('No favorites yet.')),
-      );
-    }
-
-    return Scaffold(
-      appBar: AppBar(title: Text('Series préférés')),
-      body: Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.all(20),
-            child: Text(
-              'You have '
-              '${appState.seriesf.length} favorites:',
-            ),
-          ),
-          for (var f in appState.seriesf)
-            Row(children: [Icon(Icons.favorite), Text(f.titre)]),
         ],
       ),
     );
