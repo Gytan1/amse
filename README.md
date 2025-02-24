@@ -15,6 +15,7 @@ git clone https://github.com/Gytan1/amse.git
 ### 2. Acceder au dossier du projet
 ```bash
 cd amse
+cd tp1
 ```
 ### 3. Lancer l'application 
 ```bash
